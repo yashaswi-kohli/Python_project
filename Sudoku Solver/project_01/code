@@ -36,7 +36,7 @@ def finding_empty(board):             # This function will find all zero's or em
             if board[row][col] == 0:  # If the element given at the particular index is 0, then it will return the index
                 return row, col       # row, column
 
-    return None, None
+    return None
 
 
 def valid(num, position, board):
